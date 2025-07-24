@@ -98,6 +98,13 @@ export function Hero() {
 
               <Button
                 variant="outline"
+                className="border-white text-white hover:bg-white hover:text-slate-900 bg-transparent hover-lift w-full sm:w-auto"
+              >
+                <a href="#contact">Get&nbsp;In&nbsp;Touch</a>
+              </Button>
+
+              <Button
+                variant="outline"
                 className="border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white bg-transparent hover-lift w-full sm:w-auto"
                 onClick={() => {
                   const link = document.createElement("a")
@@ -109,13 +116,7 @@ export function Hero() {
                 <Download className="h-4 w-4 mr-2" />
                 Download&nbsp;CV
               </Button>
-
-              <Button
-                variant="outline"
-                className="border-white text-white hover:bg-white hover:text-slate-900 bg-transparent hover-lift w-full sm:w-auto"
-              >
-                <a href="#contact">Get&nbsp;In&nbsp;Touch</a>
-              </Button>
+              
             </div>
           </div>
 
