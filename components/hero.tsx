@@ -92,15 +92,29 @@ export function Hero() {
             </div>
 
             <div className="flex flex-col space-y-3 sm:space-y-4 animate-fade-in-up animate-500">
-              <Button className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 hover-lift hover-glow w-full sm:w-auto">
-                <a href="#projects">View&nbsp;My&nbsp;Work</a>
+              <Button
+                className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 transition-all duration-200 w-full sm:w-auto"
+                onClick={() => {
+                  const projectsSection = document.getElementById("projects")
+                  if (projectsSection) {
+                    projectsSection.scrollIntoView({ behavior: "smooth" })
+                  }
+                }}
+              >
+                View&nbsp;My&nbsp;Work
               </Button>
 
               <Button
                 variant="outline"
-                className="border-white text-white hover:bg-white hover:text-slate-900 bg-transparent hover-lift w-full sm:w-auto"
+                className="border-white text-white hover:bg-white hover:text-slate-900 bg-transparent transition-all duration-200 w-full sm:w-auto"
+                onClick={() => {
+                  const contactSection = document.getElementById("contact")
+                  if (contactSection) {
+                    contactSection.scrollIntoView({ behavior: "smooth" })
+                  }
+                }}
               >
-                <a href="#contact">Get&nbsp;In&nbsp;Touch</a>
+                Get&nbsp;In&nbsp;Touch
               </Button>
 
               <Button
