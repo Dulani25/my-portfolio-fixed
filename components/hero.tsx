@@ -43,18 +43,18 @@ export function Hero() {
                   Kamkanamge...
                 </span>
               </h1>
-              <div className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-gray-300 min-h-[3rem] lg:min-h-[4rem] leading-relaxed italic animate-fade-in-up animate-delay-200">
+              <div className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-gray-300 min-h-[3rem] lg:min-h-[4rem] leading-relaxed italic animate-fade-in-up animate-200">
                 {text}
                 <span className="animate-pulse">|</span>
               </div>
             </div>
 
-            <p className="text-base sm:text-lg lg:text-xl text-gray-400 mb-8 lg:mb-10 max-w-2xl mx-auto lg:mx-0 leading-relaxed animate-fade-in-up animate-delay-300">
+            <p className="text-base sm:text-lg lg:text-xl text-gray-400 mb-8 lg:mb-10 max-w-2xl mx-auto lg:mx-0 leading-relaxed animate-fade-in-up animate-300">
               I build clean, responsive web applications using modern technologies. Passionate about writing clean code
               and creating smooth, user-friendly experiences.
             </p>
 
-            <div className="flex justify-center lg:justify-start space-x-3 sm:space-x-4 mb-8 lg:mb-12 animate-fade-in-up animate-delay-400">
+            <div className="flex justify-center lg:justify-start space-x-3 sm:space-x-4 mb-8 lg:mb-12 animate-fade-in-up animate-400">
               <Button
                 variant="outline"
                 size="icon"
@@ -91,7 +91,7 @@ export function Hero() {
               </Button>
             </div>
 
-            <div className="flex flex-col space-y-3 sm:space-y-4 animate-fade-in-up animate-delay-500">
+            <div className="flex flex-col space-y-3 sm:space-y-4 animate-fade-in-up animate-500">
               <Button className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 hover-lift hover-glow w-full sm:w-auto">
                 <a href="#projects">View&nbsp;My&nbsp;Work</a>
               </Button>
@@ -116,12 +116,12 @@ export function Hero() {
                 <Download className="h-4 w-4 mr-2" />
                 Download&nbsp;CV
               </Button>
-              
+
             </div>
           </div>
 
           {/* Right side - Profile photo */}
-          <div className="flex justify-center lg:justify-end animate-fade-in-right animate-delay-300 order-1 lg:order-2">
+          <div className="flex justify-center lg:justify-end animate-fade-in-right animate-300 order-1 lg:order-2">
             <div className="w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 lg:w-[450px] lg:h-[450px] xl:w-[500px] xl:h-[500px] bg-gradient-to-br from-purple-500/20 to-pink-500/20 rounded-full flex items-center justify-center p-4 lg:p-6 hover-lift">
               <div className="w-full h-full bg-gradient-to-br from-purple-600 to-pink-600 rounded-full overflow-hidden border-4 border-white/20 relative">
                 <img
@@ -136,7 +136,7 @@ export function Hero() {
       </div>
 
       <div
-        className="absolute bottom-4 lg:bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce cursor-pointer hover:text-purple-400 transition-colors duration-200 animate-fade-in animate-delay-600"
+        className="absolute bottom-4 lg:bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce cursor-pointer hover:text-purple-400 transition-colors duration-200 animate-fade-in animate-600"
         onClick={() => {
           const aboutSection = document.getElementById("about")
           if (aboutSection) {
