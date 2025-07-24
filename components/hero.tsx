@@ -58,7 +58,7 @@ export function Hero() {
               <Button
                 variant="outline"
                 size="icon"
-                className="bg-transparent border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white w-10 h-10 sm:w-12 sm:h-12"
+                className="bg-transparent border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white w-10 h-10 sm:w-12 sm:h-12 hover-lift"
                 onClick={() => window.open("https://github.com/Dulani25", "_blank")}
               >
                 <Github className="h-4 w-4 sm:h-5 sm:w-5" />
@@ -66,7 +66,7 @@ export function Hero() {
               <Button
                 variant="outline"
                 size="icon"
-                className="bg-transparent border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white w-10 h-10 sm:w-12 sm:h-12"
+                className="bg-transparent border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white w-10 h-10 sm:w-12 sm:h-12 hover-lift"
                 onClick={() => window.open("https://linkedin.com/in/dulani-kamkanamge-565a6a2a7", "_blank")}
               >
                 <Linkedin className="h-4 w-4 sm:h-5 sm:w-5" />
@@ -74,7 +74,7 @@ export function Hero() {
               <Button
                 variant="outline"
                 size="icon"
-                className="bg-transparent border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white w-10 h-10 sm:w-12 sm:h-12"
+                className="bg-transparent border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white w-10 h-10 sm:w-12 sm:h-12 hover-lift"
                 onClick={() => window.open("https://www.facebook.com/share/19SMHHYMsd/?mibextid=wwXIfr")}
               >
                 <Facebook className="h-4 w-4 sm:h-5 sm:w-5" />
@@ -82,7 +82,7 @@ export function Hero() {
               <Button
                 variant="outline"
                 size="icon"
-                className="bg-transparent border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white w-10 h-10 sm:w-12 sm:h-12"
+                className="bg-transparent border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white w-10 h-10 sm:w-12 sm:h-12 hover-lift"
                 onClick={() =>
                   window.open("https://www.instagram.com/dulz_kamkanamge?igsh=cXE4aTh1c2IzNnFv&utm_source=qr")
                 }
