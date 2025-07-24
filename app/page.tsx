@@ -10,13 +10,7 @@ import { Footer } from "@/components/footer"
 
 export default function Portfolio() {
   return (
-    <div
-      className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900"
-      style={{
-        background: "linear-gradient(to bottom right, #0f172a, #581c87, #0f172a)",
-        minHeight: "100vh",
-      }}
-    >
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900">
       <Navigation />
       <Hero />
       <About />
