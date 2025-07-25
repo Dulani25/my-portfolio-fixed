@@ -1,6 +1,6 @@
 "use client"
 
-import { Github, Linkedin, Mail, Heart, ArrowUp, Facebook, Instagram } from "lucide-react"
+import { Github, Linkedin, Mail, ArrowUp, Facebook, Instagram } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export function Footer() {
@@ -116,9 +116,7 @@ export function Footer() {
         <div className="border-t border-slate-700/50 pt-8 animate-fade-in-up animate-delay-400">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="flex items-center space-x-2 text-gray-400">
-              <span>© {currentYear} Dulani Kamkanamge. Made with</span>
-              <Heart className="h-4 w-4 text-red-400 animate-pulse" />
-              <span>using React & Next.js</span>
+              <span>© {currentYear} Dulani Kamkanamge. Made using React & Next.js</span>
             </div>
 
             <div className="flex items-center space-x-4 text-sm text-gray-500">
