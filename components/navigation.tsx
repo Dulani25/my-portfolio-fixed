@@ -72,7 +72,7 @@ export function Navigation() {
               <a
                 key={item.href}
                 href={item.href}
-                className="block py-2 text-gray-300 hover:text-purple-400 transition-colors duration-200 font-dancing"
+                className="block py-2 text-gray-300 hover:text-purple-400 transition-colors duration-200"
                 onClick={() => setIsOpen(false)}
               >
                 {item.label}
