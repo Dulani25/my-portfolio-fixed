@@ -59,14 +59,26 @@ export function Projects() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-4">
                   <div className="flex space-x-2">
-                    <Button size="sm" variant="secondary" className="bg-white/20 backdrop-blur-sm">
-                      <ExternalLink className="h-4 w-4 mr-2" />
-                      Live Demo
-                    </Button>
-                    <Button size="sm" variant="secondary" className="bg-white/20 backdrop-blur-sm">
-                      <Github className="h-4 w-4 mr-2" />
-                      Code
-                    </Button>
+                    <a
+                      href={project.liveUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Button size="sm" variant="secondary" className="bg-white/20 backdrop-blur-sm">
+                        <ExternalLink className="h-4 w-4 mr-2" />
+                        Live Demo
+                      </Button>
+                    </a>
+                    <a
+                      href={project.githubUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Button size="sm" variant="secondary" className="bg-white/20 backdrop-blur-sm">
+                        <Github className="h-4 w-4 mr-2" />
+                        Code
+                      </Button>
+                    </a>
                   </div>
                 </div>
               </div>
