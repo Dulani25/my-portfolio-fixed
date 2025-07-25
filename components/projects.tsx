@@ -6,40 +6,31 @@ import { ExternalLink, Github } from "lucide-react"
 export function Projects() {
   const projects = [
     {
-      title: "E-Commerce Platform",
+      title: "Breast Cancer Prediction System",
       description:
-        "A full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include user authentication, product management, and order processing.",
+        "Built and optimized classification and regression models on SEER breast cancer data to predict patient mortality and survival duration using Logistic Regression, Decision Trees, MLP, and ensemble methods. Preprocessed clinical datasets, performed exploratory and statistical analysis, and applied hyperparameter tuning. Improved model efficiency through code reuse and peer reviews, and delivered a comprehensive report tailored for both technical and medical audiences.",
       image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=200&fit=crop&crop=center",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
+      technologies: ["Python", "Pandas", "NumPy", "Scikit-learn", "Matplotlib", "Seaborn"],
       liveUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/Dulani25/Breast-Cancer-Prediction-Model-2.git",
     },
     {
-      title: "Task Management App",
+      title: "Insight Marketing Intelligence Hub - Promovio",
       description:
-        "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
+        "Built a full-stack marketing intelligence platform with real-time dashboards, social media analytics, and an AI-driven chatbot to support data-driven strategies. Optimized performance with efficient SQL queries and led Agile coordination for smooth project execution",
       image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=400&h=200&fit=crop&crop=center",
-      technologies: ["Next.js", "TypeScript", "Prisma", "Socket.io"],
+      technologies: ["React", "Node.js", "MongoDB", "Meta APIs"],
       liveUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/SathijaDissanayake/SDGP-Promovio.git",
     },
     {
-      title: "Weather Dashboard",
+      title: "Bookstore RESTful API",
       description:
-        "A responsive weather dashboard that displays current weather conditions, forecasts, and interactive maps using weather APIs.",
+        "Developed a RESTful API for an online bookstore to manage books, authors, customers, shopping carts, and orders. Implemented full CRUD operations with proper request handling and input validation using custom ExceptionMappers. Thoroughly tested endpoints using Postman to ensure reliable and robust API performance.",
       image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=400&h=200&fit=crop&crop=center",
-      technologies: ["React", "Chart.js", "Weather API", "Tailwind"],
+      technologies: ["Java", "JAX-RS", "Postman"],
       liveUrl: "#",
-      githubUrl: "#",
-    },
-    {
-      title: "Social Media Analytics",
-      description:
-        "An analytics dashboard for social media metrics with data visualization, reporting features, and automated insights generation.",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=200&fit=crop&crop=center",
-      technologies: ["Vue.js", "D3.js", "Python", "FastAPI"],
-      liveUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/Dulani25/Bookstore-API.git",
     },
   ]
 

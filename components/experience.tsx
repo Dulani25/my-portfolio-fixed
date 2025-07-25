@@ -5,20 +5,17 @@ import { Briefcase, MapPin, Calendar } from "lucide-react"
 export function Experience() {
   const experiences = [
     {
-      title: "Frontend Developer",
-      company: "Digital Agency Pro",
-      location: "New York, NY",
-      period: "2021 - 2022",
-      type: "Full-time",
+      title: " ",
+      company: " ",
+      location: " ",
+      period: " ",
+      type: " ",
       description:
-        "Created responsive websites and web applications for various clients. Worked closely with UX/UI designers to translate designs into functional interfaces. Optimized websites for SEO and performance.",
+        " ",
       achievements: [
-        "Delivered 15+ client projects on time",
-        "Achieved 95+ PageSpeed scores",
-        "Increased client satisfaction by 25%",
-        "Implemented accessibility standards (WCAG 2.1)",
+        " ",
       ],
-      technologies: ["HTML5", "CSS3", "JavaScript", "React", "Sass", "WordPress"],
+      technologies: [" "],
     },
     
   ]
