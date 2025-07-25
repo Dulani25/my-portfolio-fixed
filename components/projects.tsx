@@ -8,7 +8,7 @@ export function Projects() {
     {
       title: "Breast Cancer Prediction System",
       description:
-        "Built and optimized classification and regression models on SEER breast cancer data to predict patient mortality and survival duration using Logistic Regression, Decision Trees, MLP, and ensemble methods. Preprocessed clinical datasets, performed exploratory and statistical analysis, and applied hyperparameter tuning. Improved model efficiency through code reuse and peer reviews, and delivered a comprehensive report tailored for both technical and medical audiences.",
+        "Built and optimized classification and regression models on breast cancer data to predict patient mortality and survival duration using Logistic Regression, Decision Trees, MLP, and ensemble methods. Preprocessed clinical datasets, performed exploratory and statistical analysis, and applied hyperparameter tuning. Improved model efficiency through code reuse and peer reviews, and delivered a comprehensive report tailored for both technical and medical audiences.",
       image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=200&fit=crop&crop=center",
       technologies: ["Python", "Pandas", "NumPy", "Scikit-learn", "Matplotlib", "Seaborn"],
       liveUrl: "#",
