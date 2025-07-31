@@ -11,7 +11,7 @@ export function Education() {
       gpa: "",
       description:
         "Specializing in Web Development, Fullstack Development and Machine Learning. Completed courseworks in Data Structures, Algorithms, Database Systems, and Machine Learning.",
-      achievements: [],
+      achievements: ["Dean"],
     },
     {
       degree: "G.C.E. Advanced Level Examination",
