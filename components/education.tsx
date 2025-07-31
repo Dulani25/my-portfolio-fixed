@@ -33,6 +33,18 @@ export function Education() {
 
   const certifications = [
     {
+      name: "Introduction to Web Design and Development - Certificate of Course Completion",
+      issuer: "Linkedin Learning",
+      date: "2025",
+      achievements: ["Web Design", "Web Development", "HTML"],
+    },
+    {
+      name: "Introduction to Artificial Intelligence - Certificate of Course Completion",
+      issuer: "Linkedin Learning",
+      date: "2025",
+      achievements: ["Artificial Intelligence - Basic"],
+    },
+    {
       name: "Python Essential Training - Certificate of Course Completion",
       issuer: "Linkedin Learning",
       date: "2025",
@@ -121,6 +133,13 @@ export function Education() {
                   <p className="text-purple-400">{cert.issuer}</p>
                 </CardHeader>
                 <CardContent>
+                  <div className="flex flex-wrap gap-2">
+                    {cert.achievements.map((achievement, achIndex) => (
+                      <Badge key={achIndex} variant="secondary" className="bg-purple-500/20 text-purple-300">
+                        {achievement}
+                      </Badge>
+                    ))}
+                  </div>
                   <div className="flex justify-between items-center">
                     <span className="text-gray-400">Issued: {cert.date}</span>
                   </div>
