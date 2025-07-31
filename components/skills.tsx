@@ -93,8 +93,9 @@ export function Skills() {
       case "Intermediate":
         return "bg-blue-500/20 text-blue-300 border-blue-400/30"
       case "Beginner":
-      case "Basic":
         return "bg-yellow-500/20 text-yellow-300 border-yellow-400/30"
+      case "Basic":
+        return "bg-red-500/20 text-red-300 border-red-400/30"
       default:
         return "bg-gray-500/20 text-gray-300 border-gray-400/30"
     }
