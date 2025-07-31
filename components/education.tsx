@@ -11,7 +11,7 @@ export function Education() {
       gpa: "",
       description:
         "Specializing in Web Development, Fullstack Development and Machine Learning. Completed courseworks in Data Structures, Algorithms, Database Systems, and Machine Learning.",
-      achievements: ["Dean"],
+      achievements: [],
     },
     {
       degree: "G.C.E. Advanced Level Examination",
@@ -36,16 +36,19 @@ export function Education() {
       name: "Python Essential Training - Certificate of Course Completion",
       issuer: "Linkedin Learning",
       date: "2025",
+      achievements: ["Python"],
     },
     {
       name: "Learning Python - Certificate of Course Completion",
       issuer: "Linkedin Learning",
       date: "2025",
+      achievements: ["Python"],
     },
     {
       name: "Learning Java 17 - Certificate of Course Completion",
       issuer: "Linkedin Learning",
       date: "2025",
+      achievements: ["Java"],
     },
   ]
 
