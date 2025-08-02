@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button"
 
 export function Hero() {
   const [text, setText] = useState("")
-  const fullText = "Computer Science Undergraduate & FullStack Developer"
+  const fullText = "Computer Science Undergraduate"
 
   useEffect(() => {
     let index = 0

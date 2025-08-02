@@ -33,6 +33,12 @@ export function Education() {
 
   const certifications = [
     {
+      name: "Node.js Essential Training - Certificate of Course Completion",
+      issuer: "Linkedin Learning",
+      date: "2025",
+      achievements: ["Node.js"],
+    },
+    {
       name: "Introduction to Web Design and Development - Certificate of Course Completion",
       issuer: "Linkedin Learning",
       date: "2025",
